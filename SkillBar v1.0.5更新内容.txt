@@ -1,0 +1,8 @@
+修复giveprofess指令bug   
+新增deleteprofess指令  getprofess指令 三者均无需在后面增加玩家名字  即
+
+iland giveprofess 散人      (如需对指定玩家改变 需要通过Console操作 后期会修复)
+iland deleteprofess
+iland getprofess 
+
+均为小写 大写不识别(后期会修复)

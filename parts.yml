@@ -1,0 +1,21 @@
+魔刀三段斩:
+  x: "0.23*w"
+  y: "0.3*h"
+  texture: "local<->textures/test/jn/md.png"
+  locktexture: "local<->textures/test/jn/md2.png"
+  width: "0.15*w"
+  height: "0.15*h"
+魔刀斩击:
+  x: "0.23*w"
+  y: "0.5*h"
+  texture: "local<->textures/test/jn/zhan.png"
+  locktexture: "local<->textures/test/jn/zhan2.png"
+  width: "0.15*w"
+  height: "0.15*h"
+夜幽莲华:
+  x: "0.23*w"
+  y: "0.7*h"
+  texture: "local<->textures/test/jn/yeyou.png"
+  locktexture: "local<->textures/test/jn/yeyou2.png"
+  width: "0.15*w"
+  height: "0.15*h"

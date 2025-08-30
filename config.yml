@@ -1,0 +1,87 @@
+MySQLHost: localhost
+MySQLPort: 3306
+MySQLUsername: 'root'
+MySQLPassword: 123456
+MySQLDatabase: 'ilanddatabase'
+MySQLUseSSL: false
+Lang:
+ SkillCooldown: '&c技能 &a<skill> &c冷却时间剩余 &b<time> &c秒！无法施放！'
+ LevelMax: '&c该技能等级已满，无法继续加点！'
+ NoPoint: '&c您无法升级这个技能，该技能所需点数不足！'
+ SkillLevelUp: '&a技能 &b<skill> &a加点成功！当前等级 &9<level> &a！'
+ DefaultProfess: '&a散人'
+ Profess: '职业选择'
+ SkillTitle: '技能学习'
+ NeedLevel: '&c该技能所需达到职业等级 &a<needlevel> &a级可继续升级！'
+ NoNeedLevel: '&a当前等级可学习该技能！'
+
+HandCheck:
+ 弓: '匕'
+Gui:
+ # openb gui设置
+ openb:
+  path: "local<->textures/test/技能界面.png"
+  x: '0.1*w'
+  y: '0.1*h'
+  z: '0'
+  # 宽度
+  width: '0.8*w'
+  # 高度
+  height: '0.8*h'
+ # 可滚动文本框gui 设置
+ scroll:
+  #滚动列表显示的宽度
+  width: '0.2*w'
+  #滚动列表显示的高度
+  height: '0.77*h'
+  #滚动列表显示的初始坐标
+  locationX: '0.13*w'
+  locationY: '0.13*h'
+  #滑块栏的坐标
+  locationVX: '0.12*w'
+  locationVY: '0.12*h'
+  #竖向滑块栏的宽度、高度
+  widthV: '0.01*w'
+  heightV: '0.77*h'
+  #是否关闭竖向滑块 默认为为true
+  invalidV: false
+  #滑块的图标，默认为："local<->textures/test/滚动.png"
+  texture: "local<->textures/test/滚动.png"
+ # 提示文本位置
+ skillLabel:
+  x: '0.35*w'
+  y: '0.13*h'
+ # 显示按键+技能图标的地方的东西位置
+ keyView:
+  # x的计算公式 <index> 为第几个技能-1
+  x: '(0.45+<index>*0.1)*w'
+  # 字母x值
+  msgX: '(0.46+0.1*<index>)*w'
+  # 图片y
+  y: '0.6*h'
+  # 字母y值
+  msgY: '0.61*h'
+ # 显示技能点文本的位置
+ skillPointLabel:
+  x: '0.35*w'
+  y: '0.8*h'
+ # 显示升级按钮的位置
+ levelUpButton:
+  x: '0.35*w'
+  y: '0.85*h'
+  width: '0.1*w'
+  height: '0.05*h'
+ # 判定选中技能的栏位位置
+# skillSlot:
+#  size: '26'
+#  x: '0.15*w'
+#  # y  <index> 为第几个技能-1
+#  y: '(0.08+0.02*<index>)*w'
+ # 图片位置
+# skillTexture:
+#  x: '0.151*w'
+#  # y  <index> 为第几个技能-1
+#  y: '(0.08+0.02*<index>)*w'
+#  # 间隔y
+#  width: '0.0625*w'
+#  height: '0.02*h'
