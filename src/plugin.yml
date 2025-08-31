@@ -1,6 +1,6 @@
 name: DreamSkillBar
 version: 1.1.0
-main: com.killercraft.jimy.ILandSkillBar
+main: com.github.yunmeng.ILandSkillBar
 author: StartDream-kylin
 commands:
   iland:
